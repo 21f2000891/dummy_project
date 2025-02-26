@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,6 +11,44 @@
     <h1>About my experience</h1>
     <p>Hi this is my first push to git hub learning from course instructor. On this date of 13-02-2025</p>
     <p> hi</p>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="div" style="background-color: black; height: 250px;"></div>
+
+    <script>
+        const colors = {
+            color1: 'red',
+            color2: 'green',
+            color3: 'yellow',
+        }
+        let i = 1;
+        let color = null;
+        setInterval(() => {
+            if (i % 2 != 0) {
+                color = colors.color1
+            }
+            else if (i % 4 == 0) {
+                color = colors.color2
+            }
+            else {
+                color = colors.color3
+            }
+            document.getElementById('div').style.backgroundColor = color;
+            i++;
+        }, 1000)
+    </script>
 </body>
 
 </html>

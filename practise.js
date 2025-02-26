@@ -20,5 +20,13 @@
 // }
 // // abc();
 
-const c = 10 ;  
-  console.log(c);
+// const c = 10 ;  
+
+//   console.log(c);
+// const x = 14;
+// x = 15;
+// console.log(x);
+
+// const sum = (x, y) => {return x+y}
+const sum = (x, y) => x+y
+console.log(sum(1,3));
